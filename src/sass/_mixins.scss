@@ -1,0 +1,40 @@
+// Миксин для адаптива  ---------------------------------------------------------------------------
+
+@mixin desktop {
+  @media screen and (min-width: 1360px) {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media screen and (min-width: 768px) and (max-width: 1359px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin mobile-only {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+// вызов mixin-a
+// .any-class {
+//   @include phones {
+//     background-color: red;
+//   }
+// }
+
+// ---------------------------------------------------------------------------------------------------------
