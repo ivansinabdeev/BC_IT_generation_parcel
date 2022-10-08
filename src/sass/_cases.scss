@@ -1,0 +1,50 @@
+.Bussines-cases {
+  &__title {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 50px;
+    /* identical to box height, or 165% */
+
+    text-align: center;
+
+    color: #333333;
+  }
+
+  &__subtitle {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 15px;
+
+    color: #333333;
+  }
+
+  &__description {
+    margin-top: 34px;
+    font-family: 'Open Sans';
+
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #333333;
+  }
+}
+.container {
+}
+.Busines-cases {
+  &__gallery {
+    margin-top: 39px;
+    margin-bottom: 47px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  &__item {
+  }
+}
