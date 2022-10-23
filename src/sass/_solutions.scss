@@ -1,0 +1,43 @@
+
+.solutions-wraper{
+    display: flex;
+
+}
+
+.solutions-description{
+    min-width: 680px;
+    background-color: #28a745;
+    padding: 84px 44px 84px 30px;
+    color: #ffffff;
+    
+}
+.sol-img{
+   min-width: 680px;
+}
+
+.description-text{
+    margin-bottom: 4px;
+    font-size: 20px;
+line-height: calc(33/20);
+}
+.solutions-title{
+    margin-bottom: 26px;
+    font-weight: 300;
+font-size: 38px;
+line-height: calc(48/38);
+}
+.description-long-text{
+    display: flex;
+    margin-bottom: 17px;
+    font-size: 18px;
+line-height: calc(28/18) 
+    
+}
+
+.description-btn{
+    padding:11px 27px 12px 42px;
+    color: #FFFFFF;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+background-color: transparent;
+}
