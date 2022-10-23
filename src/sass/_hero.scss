@@ -1,0 +1,58 @@
+.hero {
+  padding-top: 225px;
+  padding-bottom: 284px;
+  text-align: center;
+  //   background-color: #c4c4c4;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/hero/showcase.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  max-width: 1360px;
+  height: 768px;
+  margin: 0 auto;
+}
+.hero-title {
+  width: 493px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  color: var(--hero-color-text);
+
+  text-align: center;
+}
+.hero-text {
+  margin-bottom: 29px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.67;
+  text-align: center;
+
+  color: var(--hero-color-text);
+}
+
+.js-open-modal {
+  display: inline-block;
+  padding: 10px 30px 9px 28px;
+  border: none;
+  border-radius: 5px;
+  min-width: 165px;
+  text-align: center;
+
+  background-color: var(--acent-color);
+  color: var(--secondary-text-color);
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.56;
+  cursor: pointer;
+  transition: background-color 250ms linear;
+}
+.js-open-modal:hover,
+.js-open-modal:focus {
+  background-color: var(--acent-color-hover);
+}
